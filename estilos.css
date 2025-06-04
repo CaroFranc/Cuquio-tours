@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fefcea, #639ce6);
+  color: #333;
+}
+
+body {
+  background-image: url('fondo.jpg');
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  background-position: center;  
+}
+header {
+  background-color: #6db0f4;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+nav ul {
+  list-style: none;
+  padding: 5;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #212121;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #5aa5e2;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 3em;
+}
+/* General body font */
+body {
+  font-family: Georgia, sans-serif; /* A common, readable font. You can change this! */
+  line-height: 1.6; /* Improves readability by adding space between lines */
+  color: #ab6124; /* A soft black color for text */
+}
+
+/* Heading font */
+h1 {
+  font-family: 'Georgia', serif; /* A classic serif font for headings */
+  color: #555; /* A slightly darker shade for headings */
+}
+
+/* You can also target other elements like h2, p, li, etc. */
+h2 {
+  font-family: 'Gergia', serif;
+  color:#639ce6
+}
+
+p {
+  font-family: 'Georgia', sans-serif; /* Example with a Google Font if you were to link it */
+color:rgba(128, 44, 13, 0.582)
+}
+
+nav ul li a {
+  font-family: 'Roboto', sans-serif; /* Another example for navigation links */
+}
+h2 {
+  font-family: 'Gergia', serif;
+  color:#639ce6
+}

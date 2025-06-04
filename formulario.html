@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agregar Información</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<center>
+<body>
+
+  <h2>Agregar Comentario</h2>
+  <form action="guardar.php" method="POST">
+    <label for="categoria">Categoría:</label>
+    <select name="categoria" required>
+      <option value="evento">Evento</option>
+      <option value="gastronomia">Gastronomía</option>
+      <option value="cultura">Cultura</option>
+      <option value="lugar">Lugar</option>
+   
+      <li>
+    </select><br><br>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" required><br><br>
+
+    <label for="descripcion">Descripción:</label><br>
+    <textarea name="descripcion" rows="5" cols="30" required></textarea><br><br>
+
+    <input type="submit" value="Guardar">
+  </form></center>
+  <center><img src="atrio.jpg" width="500"heigth="600">
+  </center>
+</body>
+</html>
